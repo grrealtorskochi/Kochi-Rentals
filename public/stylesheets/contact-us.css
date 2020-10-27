@@ -1,0 +1,35 @@
+.hr-size {
+    border-top: 1px dashed;
+}
+
+.ff-lora {
+    font-family: Lora, serif;
+}
+
+.contact-details-p {
+    font-family: 'Karla', sans-serif;
+    color: #666;
+}
+
+.sensitive-details {
+    text-decoration: underline;
+    color: #666;
+}
+
+.sensitive-details:hover {
+    text-decoration: none;
+    color: #666;
+}
+
+.foo-move {
+    margin-top: 200px;
+}
+
+.alert {
+    text-align: center;
+    padding: 10px;
+    background-color: #45a049;
+    color: white;
+    margin-bottom: 10px;
+    display: none;
+}

@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:ital,wght@0,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:ital,wght@0,700;1,900&family=Noto+Serif+SC:wght@600&family=Noto+Serif:ital@1&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Marck+Script&family=Merriweather:ital,wght@0,700;1,900&family=Noto+Serif+SC:wght@600&family=Noto+Serif:ital@1&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Marck+Script&family=Merriweather:ital,wght@0,700;1,900&family=Noto+Serif+SC:wght@200;600&family=Noto+Serif:ital@1&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Marck+Script&family=Merriweather:ital,wght@0,700;1,900&family=Noto+Serif+SC:wght@200;600&family=Noto+Serif:ital@1&family=Slabo+27px&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    overflow-y: hidden;
+}
+
+header {
+    background-color: #212121;
+    height: 75px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.font-header {
+    color: #fcf700;
+    font-family: 'Merriweather', serif;
+}
+
+.list-color li a {
+    color: white;
+    font-family: 'Merienda One', cursive;
+}
+
+.inactive:hover {
+    transition:all .8s ease;
+    color: yellow;
+}
+
+.active {
+    color: white;
+}
+
+nav .navbar-brand:hover {
+    color: #fcf700; 
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #212121;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    text-align: center;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #212121;
+    color: white;
+    border: none;
+    padding-right: 10px;
+}
+
+.openbtn:hover {
+    background-color: #212121;
+    outline: none;
+}
+
+.page-color {
+    /* background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%); */
+    background-image: url("../images/back1.jpg");
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-color .text {
+    font-family: 'Kaushan Script', cursive;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.heading {
+    font-size: 50px;
+}
+
+.btns {
+    border: 2px solid rgb(0, 16, 240);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 500;
+    width: 300px;
+    font-family: 'Noto Serif SC', serif;
+}
+
+.btns:hover {
+    transition:all .7s ease;
+    background-image: linear-gradient(120deg, #3498db, #8e44ad);
+    color: honeydew;
+    border: 2px solid white;
+}
+
+.font-alfa {  
+    font-family: 'Noto Serif SC', serif;
+    font-size: 40px;
+}
+
+.font-contents {
+    font-family: 'Noto Serif', serif;
+}
+
+.dark {
+    background-color: rgb(0, 0, 0);
+}
+
+.white {
+    color: white;
+}
+
+.enquiry-btn {
+    padding: 5px 20px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: inherit;
+    outline: none;
+}
+
+.enquiry-btn:hover {
+    border-radius: 5px;
+    transition:all .5s ease;
+    background-color: khaki;
+    outline: none;
+    border: none;
+}
+
+.a-style-remove {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+.a-style-remove:hover {
+    text-decoration: none;
+    color: cadetblue;
+}

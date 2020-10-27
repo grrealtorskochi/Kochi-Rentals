@@ -21,10 +21,6 @@
     color: #666;
 }
 
-.foo-move {
-    margin-top: 200px;
-}
-
 .alert {
     text-align: center;
     padding: 10px;
@@ -32,4 +28,9 @@
     color: white;
     margin-bottom: 10px;
     display: none;
+}
+
+.for-image {
+    height: 50vh;
+    overflow-y: hidden;
 }

@@ -21,6 +21,10 @@ h5 {
     overflow-y: hidden;
 }
 
+.scrollbar-remove::-webkit-scrollbar{
+    display: none;
+}
+
 header {
     background-color: #212121;
     height: 75px;

@@ -354,7 +354,7 @@
                         </div>
                         <div class="col-md-4 mb-3">
                             <label for="validationCustom03">Phone Number</label>
-                            <input type="tel" class="form-control" id="validationCustom03" name="Phone Number" placeholder="9898989898"
+                            <input type="tel" class="form-control" id="validationCustom03"  onkeypress="return event.charCode >= 48 && event.charCode <= 57" name="Phone Number" placeholder="9898989898"
                                 required>
                             <div class="invalid-feedback">
                                 Please Provide a valid phone number

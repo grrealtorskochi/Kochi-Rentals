@@ -19,12 +19,15 @@
  
  $("#submit-form").submit((e)=>{
      e.preventDefault()
+     document.getElementById("sub-btn").disabled = true;
+     document.getElementById('sub-text').innerText = `Submitting...`
      $.ajax({
          url:"https://script.google.com/macros/s/AKfycbw_xsKsYGc9V1R1uDZCv7gJbz2tJkE1gNh98TeaRw/exec",
          data:$("#submit-form").serialize(),
          method:"post",
          success:function (response){
              //show alert
+            document.getElementById('sub-text').innerText = `Submitted` 
             document.querySelector('.alert').style.display = 'block';
 
             //hide alert after 3 seconds

@@ -20,6 +20,7 @@
  $("#submit-form").submit((e)=>{
      e.preventDefault()
      document.getElementById("sub-btn").disabled = true;
+     document.getElementById("sub-btn").className = "btn btn-warning";
      document.getElementById('sub-text').innerText = `Submitting...`
      $.ajax({
          url:"https://script.google.com/macros/s/AKfycbw_xsKsYGc9V1R1uDZCv7gJbz2tJkE1gNh98TeaRw/exec",
@@ -27,6 +28,7 @@
          method:"post",
          success:function (response){
              //show alert
+            document.getElementById("sub-btn").className = "btn btn-success"; 
             document.getElementById('sub-text').innerText = `Submitted` 
             document.querySelector('.alert').style.display = 'block';
 
